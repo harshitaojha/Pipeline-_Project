@@ -3,7 +3,7 @@ import matplotlib
 from scipy.integrate import odeint
 matplotlib.use('tkagg')
 import matplotlib.pyplot as plt
-y0 = [1, 0.01, 0, 0,]	#fACING PROBLEM IN FINDING C0,N0,D0
+y0 = [1, 0, 0, 0,]	#fACING PROBLEM IN FINDING C0,N0,D0, 
 t = np.linspace(0, 48, num=24)
 alpha = 0.0017
 beta = 0.28
